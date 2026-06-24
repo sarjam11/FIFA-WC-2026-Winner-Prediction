@@ -2,7 +2,6 @@
 
 An end-to-end machine learning pipeline for predicting FIFA World Cup 2026 match outcomes. The project scrapes real player performance data from [WhoScored](https://www.whoscored.com), engineers 120+ features from historical match data, and simulates the entire tournament 50,000 times using a four-model ensemble to produce win probabilities for all 48 qualified nations.
 
-![Winning Probabilities](wc2026_probs_stacked_bar_chart.png)
 
 ## Pipeline Overview
 
