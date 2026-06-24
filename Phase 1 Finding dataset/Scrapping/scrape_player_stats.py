@@ -218,8 +218,8 @@ def fetch_player_stats(
                     continue
                 return []
 
-            # ── Extract raw text from the page body ─────────────────────
-            # When a browser navigates to a JSON endpoint, the response
+            # Extract raw text from the page body 
+            # When a browser navigates to a JSON endpoint, the response 
             # is rendered as plain text inside the <body>, often wrapped
             # in a <pre> tag.  We grab it with inner_text.
             raw_text = ""
